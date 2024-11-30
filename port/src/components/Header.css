@@ -1,0 +1,32 @@
+/* Header navigation styles */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header ul li {
+    margin: 0 15px;
+  }
+  
+  .header ul li a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .header ul li a:hover {
+    color: #ffd700;
+  }
+  

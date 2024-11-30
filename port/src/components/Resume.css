@@ -1,0 +1,54 @@
+/* src/components/Resume.css */
+
+.resume {
+  padding: 80px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+
+.resume h2 {
+  font-size: 3rem; /* Larger font size for the title */
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.resume p {
+  font-size: 1.5rem; /* Larger font size for the text */
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.5rem; /* Larger font size for the button */
+  background-color: #0073b1; /* LinkedIn blue */
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-button:hover {
+  background-color: #005582;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .resume h2 {
+    font-size: 2.5rem; /* Slightly smaller on smaller screens */
+  }
+
+  .resume p {
+    font-size: 1.2rem; /* Slightly smaller on smaller screens */
+  }
+
+  .resume-button {
+    font-size: 1.2rem; /* Smaller button on mobile */
+    padding: 15px 30px;
+  }
+}
