@@ -3,6 +3,19 @@ import React from 'react';
 import './Projects.css';
 
 const projectsData = [
+  {
+     title: 'E-Commerce App',
+      description: 'App that allows you to purchase products in online which is also integrated with stripe',
+      image: '/images/projects/e-com.png', // Replace with your actual image file name
+      link: 'https://github.com/SANDY655/MERN-S.git',
+  },
+  {
+     title: 'Chatter Box',
+      description: 'App that allows you to chat with your friends ',
+      image: '/images/projects/chatterbox.png', // Replace with your actual image file name
+      link: 'https://github.com/SANDY655/ChatterBox.git',
+  },
+  
   
     {
       title: 'Barcode Generator',
