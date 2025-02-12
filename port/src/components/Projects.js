@@ -5,7 +5,7 @@ import './Projects.css';
 const projectsData = [
   {
      title: 'E-Commerce App',
-      description: 'App that allows you to purchase products in online which is also integrated with stripe',
+      description: 'An e-commerce app is a mobile or web platform that enables users to browse, select, and purchase products or services online. The app offers a smooth and intuitive interface for users to explore different product categories, view product details, and complete transactions with secure payment methods. Features typically include a shopping cart for selecting items, search functionality, and various payment options.',
       image: '/images/projects/e-com.png', // Replace with your actual image file name
       link: 'https://github.com/SANDY655/MERN-S.git',
   },
