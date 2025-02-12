@@ -11,7 +11,7 @@ const projectsData = [
   },
   {
      title: 'Chatter Box',
-      description: 'App that allows you to chat with your friends ',
+      description: 'A chat app is a platform designed for real-time text-based communication between users. It allows individuals to send and receive messages instantly, facilitating conversations in both one-on-one and group settings. Features often include customizable profiles, message notifications, and the ability to create chat rooms or groups',
       image: '/images/projects/chatterbox.png', // Replace with your actual image file name
       link: 'https://github.com/SANDY655/ChatterBox.git',
   },
