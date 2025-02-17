@@ -4,6 +4,13 @@ import './Projects.css';
 
 const projectsData = [
   {
+   title: 'FreshHarvest',
+      description: 'FreshHarvest connects farmers directly with buyers, ensuring fresh produce, fair pricing, and seamless transactions. With real-time inventory updates and secure logistics, it creates a transparent and efficient farm-to-table experience.',
+      image: '/images/projects/freshHarvest.png', // Replace with your actual image file name
+      link: 'https://github.com/SANDY655/FreshHarvest.git' 
+  },
+  
+  {
      title: 'E-Commerce App',
       description: 'An e-commerce app is a mobile or web platform that enables users to browse, select, and purchase products or services online. The app offers a smooth and intuitive interface for users to explore different product categories, view product details, and complete transactions with secure payment methods. Features typically include a shopping cart for selecting items, search functionality, and various payment options.',
       image: '/images/projects/e-com.png', // Replace with your actual image file name
