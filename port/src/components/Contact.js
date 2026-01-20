@@ -1,50 +1,35 @@
 // src/components/Contact.js
 import React from 'react';
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-import { SiLeetcode } from 'react-icons/si'; // LeetCode icon
+import { motion } from 'framer-motion';
+import { ArrowUpRight } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
   return (
-    <section id="contact" className="contact">
-      <h2>Contact</h2>
-      <div className="contact-links">
-        <a
-          href="mailto:santhoshkannan525@gmail.com"
-          className="contact-item"
-          target="_blank"
-          rel="noopener noreferrer"
+    <section id="contact" className="contact-section">
+      <div className="container center">
+        <motion.div
+          className="contact-content"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
         >
-          <FaEnvelope size={24} />
-          <span>Email</span>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/santhosh-pandiyan-k-42b771290/"
-          className="contact-item"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin size={24} />
-          <span>LinkedIn</span>
-        </a>
-        <a
-          href="https://github.com/SANDY655"
-          className="contact-item"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub size={24} />
-          <span>GitHub</span>
-        </a>
-        <a
-          href="https://leetcode.com/SANTHOSH_KANNAN_6"
-          className="contact-item"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <SiLeetcode size={24} />
-          <span>LeetCode</span>
-        </a>
+          <h2>Let's work together.</h2>
+          <p>Creating something great always starts with a small conversation.</p>
+
+          <a href="mailto:santhoshkannan525@gmail.com" className="email-link">
+            <span>santhoshkannan525@gmail.com</span>
+            <ArrowUpRight size={24} />
+          </a>
+        </motion.div>
+
+        <footer className="footer-minimal">
+          <p>&copy; 2024 Santhosh Pandiyan. All rights reserved.</p>
+          <div className="footer-links">
+            <a href="https://github.com/SANDY655">GitHub</a>
+            <a href="https://www.linkedin.com/in/santhosh-pandiyan-k-42b771290/">LinkedIn</a>
+          </div>
+        </footer>
       </div>
     </section>
   );

@@ -1,18 +1,19 @@
 // src/components/Resume.js
 import React from 'react';
+import { FileText } from 'lucide-react';
 import './Resume.css';
 
 const Resume = () => {
   return (
-    <section id="resume" className="resume">
-      <div className="resume-container">
-        
+    <section id="resume" className="resume-section">
+      <div className="container center">
         <a
-          href="images\projects\Santhosh's Resume.pdf" // Replace with the actual path to your resume
+          href="/images/projects/Santhosh's Resume.pdf"
           download
-          className="resume-button"
+          className="resume-link"
         >
-          Download Resume
+          <FileText size={20} />
+          <span>Download Full Resume</span>
         </a>
       </div>
     </section>
