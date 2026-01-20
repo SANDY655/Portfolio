@@ -7,7 +7,7 @@ import './SocialSidebar.css';
 const socialLinks = [
     { icon: <Github size={18} />, label: 'Github', href: 'https://github.com/SANDY655' },
     { icon: <Linkedin size={18} />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/santhosh-pandiyan-k-42b771290/' },
-    { icon: <Code size={18} />, label: 'LeetCode', href: 'https://leetcode.com/u/Santhosh_Pandiyan/' },
+    { icon: <Code size={18} />, label: 'LeetCode', href: 'https://leetcode.com/u/SANTHOSH_KANNAN_6/' },
     { icon: <Mail size={18} />, label: 'Email', href: 'mailto:santhoshkannan525@gmail.com' },
 ];
 

@@ -1,7 +1,7 @@
 // src/components/Projects.js
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Award } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import './Projects.css';
 
 const projectsData = [
